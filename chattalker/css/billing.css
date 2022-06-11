@@ -1,0 +1,378 @@
+.logo {
+    width: 131px;
+    height: 24px;
+}
+
+.header_top {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.program {
+    background: #FF5D50;
+    border-radius: 22px;
+    width: 128px;
+    height: 40px;
+    color: #FFFFFF;
+}
+
+.navbar {
+    border-bottom: solid 2px #FFD153;
+}
+
+.header {
+    width: 100%;
+    height: 495px;
+    padding-top: 48px;
+}
+
+/* .header {
+    padding-top: 48px;
+    height: 494px;
+    width: 100%;
+    background: #F7F9FD;
+    border-radius: 0px 0px 0px 150px;
+    position: absolute;
+    z-index: -2;
+} */
+.header_background_image {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/banner_sm.svg);
+    width: 375px;
+    height: 495px;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: -12px;
+    background-repeat: no-repeat;
+}
+
+.header_background_color {
+    height: 494px;
+    background: #F7F9FD;
+    border-radius: 0px 0px 0px 150px;
+    position: absolute;
+    z-index: -3;
+}
+
+
+.header_h1 {
+    margin-bottom: 16px;
+}
+
+.header_h1 h1 {
+    font-size: 32px;
+}
+
+.content_h2 {
+    width: 334px;
+    height: 80px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 28px/40px Noto Sans TC;
+    letter-spacing: 0px;
+    color: #221E1F;
+    margin-bottom: 24px;
+}
+
+.content {
+    width: 375px;
+    margin-bottom: 32px;
+}
+
+.scheme_button {
+    /* width: 375px; */
+    /* height: 122px; */
+    position: relative;
+    overflow: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scheme_button_item1 {
+    width: 90px;
+    height: 40px;
+    background: #56C4C5 0% 0% no-repeat padding-box;
+    border: 1px solid #56C4C5;
+    border-radius: 27px;
+    color: #FFFFFF;
+    margin-right: 6px;
+}
+
+.scheme_button_item2 {
+    width: 92px;
+    height: 40px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #56C4C5;
+    border-radius: 27px;
+    color: #56C4C5;
+    margin-right: 6px;
+}
+
+.card {
+    width: 335px;
+    height: 515px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+
+.card_title {
+    text-align: center;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.title_h2 {
+    font-size: 24px;
+    text-align: center;
+    font: normal normal bold 24px/35px Noto Sans TC;
+}
+
+.card_content {
+    width: 303px;
+    height: 48px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 16px/24px Noto Sans TC;
+    margin-bottom: 24px;
+}
+
+.quantity {
+    width: 139px;
+    background: #F5F5F5;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.quantity_h2 {
+    font-size: 12px;
+    padding-top: 24px;
+    /* padding-bottom: 16px; */
+    margin-bottom: 8px;
+}
+
+.people_number {
+    font-size: 28px;
+    color: #56C4C5;
+
+}
+
+.people_unit {
+    font-size: 12px;
+    color: #56C4C5;
+    padding-top: 16px;
+}
+
+.symbol_equal {
+    font-size: 24px;
+}
+
+.people_number2 {
+    color: #000;
+}
+
+.people_unit2 {
+    color: #000;
+}
+
+.card_program {
+    margin-bottom: 27px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.option_text {
+    font-size: 14px;
+}
+
+.option {
+    margin-bottom: 35px;
+}
+
+.experience_button {
+    width: 136px;
+    height: 49px;
+    background: #56C4C5;
+    border: 1px solid #56C4C5;
+    border-radius: 27px;
+    margin: 0 auto;
+}
+
+.experience_button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 12px 32px;
+}
+
+.common_problem{
+    margin-bottom: 60px;
+}
+
+.common_problem_h2 {
+    margin-bottom: 32px;
+}
+
+.common_problem_h2 h2 {
+    font-size: 28px;
+}
+
+.questtion_button {
+    /* display: inline; */
+    width: 100%;
+    height: 56px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    opacity: 1;
+    border: 0px solid #FFFFFF;
+    margin: 0px auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+.questtion_button img {
+    width: 16px;
+    height: 16px;
+}
+
+.questtion_button_plus {
+    width: 100%;
+    height: 168px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    padding: 16px;
+    border: 0px;
+}
+.button_tilte_p p{
+    font: normal normal bold 16px/24px Noto Sans TC;
+}
+.button_tilte {
+    margin-bottom: 16px;
+}
+.button_tilte p {
+    width: 176px;
+    height: 24px;
+    color: #56C4C5;
+}
+.button_content_p{
+    width: 302px;
+}
+.button_content_p p{
+    text-align:left;
+    color: #747474;
+}
+.foteer {
+    height: 56px;
+    background: #F5F5F5;
+}
+
+.foteer_p {
+    text-align: center;
+    padding: 16px 0px;
+}
+@media (min-width:1024px) {
+    .logo {
+        width: 218px;
+        height: 40px;
+    }
+
+    .navbar {
+        border-bottom: solid 0px #FFD153;
+    }
+
+    .program {
+        width: 128px;
+        height: 40px;
+    }
+
+    .header_h1 h1 {
+        font-size: 48px;
+    }
+
+    .header_top {
+        margin-bottom: 11px;
+    }
+
+    .header {
+        padding-top: 148px;
+        height: 470px;
+        /* background: #F7F9FD; */
+        /* border-radius: 0px 0px 0px 300px; */
+        top: -56px;
+    }
+
+    .header_background_color {
+        border-radius: 0px 0px 0px 300px;
+        position: absolute;
+        z-index: -2;
+        height: 470px;
+    }
+
+    .header_background_image {
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/banner.svg);
+        width: 885px;
+        height: 559px;
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        left: 40%;
+        background-repeat: no-repeat;
+    }
+
+    .content_h2 {
+        width: auto;
+        height: 46px;
+        margin-bottom: 48px;
+    }
+
+
+    .scheme_button {
+        width: 100%;
+    }
+
+    .scheme_button_item1 {
+        width: 130px;
+        height: 50px;
+        font-size: 18px;
+        margin-right: 16px;
+    }
+
+    .scheme_button_item2 {
+        width: 130px;
+        height: 50px;
+        font-size: 18px;
+        margin-right: 16px;
+    }
+
+    .content {
+        margin-bottom: 54px;
+        width: 100%;
+    }
+
+    .card {
+        width: 444px;
+        margin: 0px 10px;
+    }
+
+    .content_card {
+        margin-bottom: 100px;
+    }
+
+    .button_all{
+        width: 904px;
+        margin: 0 auto;
+    }
+    .common_problem{
+        margin-bottom: 100px;
+    }
+}

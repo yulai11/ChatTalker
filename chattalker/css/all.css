@@ -1,0 +1,420 @@
+.color-primary {
+    color: #56C4C5;
+}
+
+.logo {
+    width: 131px;
+    height: 24px;
+}
+
+.header_top {
+    position:relative;
+}
+
+.header_background_image {
+    width: 334px;
+    height: 245px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/bg_home_sm.svg);
+    background-repeat: no-repeat;
+    position:absolute;
+    z-index:-1;
+    top: 350px;
+}
+
+.program {
+    background: #FF5D50;
+    border-radius: 22px;
+    width: 128px;
+    height: 40px;
+    color: #FFFFFF;
+}
+
+.navbar {
+    border-bottom: solid 2px #FFD153;
+    margin-bottom: 32px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.header_title {
+    margin-bottom: 16px;
+}
+
+.h1_title {
+    font-size: 32px;
+    font-family: Noto Sans TC, Bold;
+}
+
+.header_ChatTalker {
+    margin-bottom: 8px;
+}
+
+.h2_ChatTalker {
+    font-size: 16px;
+    font-family: Noto Sans TC, Bold;
+}
+
+.header_fbig {
+    margin-bottom: 32px;
+}
+
+.h2_fbig {
+    font-size: 16px;
+}
+
+.header_word {
+    width: 335px;
+}
+
+.header_img {
+    margin-left: 41.87px;
+    margin-right: 28.81px;
+    width: 304px;
+    height: 305px;
+}
+
+.content_h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #FFFFFF 0px solid;
+}
+
+.card_img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+}
+
+.card_title {
+    margin-bottom: 16px;
+    height: 26px;
+}
+
+.card-h2 {
+    font-size: 18px;
+}
+
+.card_text {
+    color: #747474;
+    font-size: 16px;
+    text-align: center;
+}
+
+.content {
+    margin-bottom: 60px;
+}
+
+.card_role {
+    width: 260px;
+    height: 388px;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+}
+
+.role_h2 {
+    margin-bottom: 16px;
+}
+
+.role_title {
+    font-size: 28px;
+}
+
+.role_p {
+    margin-bottom: 32px;
+
+}
+
+.text_p {
+    font-size: 18px;
+}
+
+.content_role {
+    margin-bottom: 60px;
+}
+
+.News_title {
+    font-size: 28px;
+}
+
+.button_shape {
+    width: 136px;
+    height: 49px;
+    background: #56C4C5;
+    border-radius: 27px;
+    margin: 0 auto;
+}
+
+.button {
+    display: block;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 12px 32px;
+    text-decoration: none;
+}
+
+.News_word {
+    margin-bottom: 32px;
+}
+
+.card_fast {
+    width: 230px;
+    height: 284px;
+    padding-top: 32px;
+    padding-left: 24px;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+}
+
+.card_first_img {
+    width: 86px;
+    height: 86px;
+    box-shadow: 0px 2px 10px #00000014;
+    margin-bottom: 24px;
+    padding-top: 17px;
+    padding-left: 24px;
+}
+
+.first img {
+    width: 52px;
+    height: 52px;
+}
+
+.first h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.content_News {
+    margin-bottom: 60px;
+}
+
+.praise {
+    width: 338px;
+    margin-bottom: 60px;
+}
+
+.color-primary {
+    color: #56c4c5;
+}
+
+.praise_h2 {
+    margin-bottom: 88px;
+}
+
+.praise_card {
+    width: 335px;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+}
+
+.praise_img {
+    width: 80px;
+    height: 80px;
+    margin-left: 32px;
+    margin-top: -24px;
+    margin-bottom: 8px;
+}
+
+.praise_card_p1 {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.praise_unit {
+    font: normal normal bold 16px/24px Noto Sans TC;
+}
+
+.star {
+    margin-right: 16px;
+}
+
+.praise_footer {
+    margin-top: 24px;
+}
+
+.origin {
+    width: 10px;
+    height: 10px;
+    background: #dddddd;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+
+.origin_special {
+    width: 16px;
+    height: 10px;
+    /* UI Properties */
+    background: #ffd153;
+    border-radius: 50px;
+}
+
+.program_img {
+    padding-top: 260px;
+  height: 461px;
+  object-fit: cover;
+  background:100% auto;
+  background-repeat:no-repeat;
+  background-image:url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/footer_sm.svg);
+
+}
+.program_h2 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font: normal normal bold 24px/35px Noto Sans TC;
+  color: #221e1f;
+}
+.program_button {
+  margin-bottom: 60px;
+}
+
+.foteer {
+    height: 56px;
+    background: #F5F5F5;
+}
+
+.foteer_p {
+    text-align: center;
+    padding: 16px 0px;
+}
+
+@media (min-width:1024px) {
+    .logo {
+        width: 218px;
+        height: 40px;
+    }
+
+    .navbar {
+        border-bottom: solid 0px #FFD153;
+        margin-bottom: 32px;
+    }
+
+    .program {
+        width: 128px;
+        height: 40px;
+    }
+
+    .header_background_image {
+        width: 851px;
+        height: 768px;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/bg_home.svg);
+        background-repeat: no-repeat;
+        position:absolute;
+        z-index:-1;
+        top: 0px;
+        left: 40%;
+    }
+
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 217px;
+    }
+
+    .h2_ChatTalker {
+        font-size: 18px;
+    }
+
+    .h1_title {
+        font-size: 48px;
+    }
+
+    .h2_fbig {
+        font-size: 20px;
+        width: 451px;
+    }
+
+    .header_img {
+        width: 532px;
+        height: 534px;
+    }
+
+    .header_word {
+        width: 432px;
+    }
+
+    .all_card {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .card_img {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 24px;
+    }
+
+    .card-h2 {
+        font-size: 24px;
+    }
+
+    .content {
+        margin-bottom: 100px;
+    }
+
+    .role_title {
+        font-size: 32px;
+    }
+
+    .role_p {
+        margin-bottom: 48px;
+    }
+
+    .text_p {
+        font-size: 20px;
+    }
+
+    .button_shape {
+        margin: 0px;
+    }
+
+    .News_card {
+        width: 507px;
+        height: 588px;
+    }
+
+    .News_word {
+        margin-top: 165px;
+        margin-left: 137px;
+    }
+
+    .content_News {
+        margin-bottom: 100px;
+    }
+
+    .praise {
+        width: auto;
+        margin-bottom: 100px;
+    }
+
+    .program_experience {
+        width: auto;
+    }
+
+    .program_img {
+        height: 503px;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg);
+        margin-bottom: 33px;
+        background-size:100%;
+    }
+
+    .program_h2 {
+        margin-bottom: 48px;
+        font-size: 32px;
+    }
+
+    .program_button {
+        margin: 0 auto;
+    }
+}
