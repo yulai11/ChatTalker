@@ -281,6 +281,7 @@
 .foteer {
     height: 56px;
     background: #F5F5F5;
+    /* width: 374px; */
 }
 
 .foteer_p {
@@ -312,7 +313,8 @@
         position:absolute;
         z-index:-1;
         top: 0px;
-        left: 40%;
+        /* left: 40%; */
+        right: 0;
     }
 
     .header {
